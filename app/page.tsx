@@ -1,13 +1,13 @@
-import { HeroSection } from "@/components/hero-section"
-import { VideoSection } from "@/components/video-section"
-import { PricingSection } from "@/components/pricing-section"
-import { RecipeGallery } from "@/components/recipe-gallery"
-import { GuaranteeSection } from "@/components/guarantee-section"
-import { CourseModules } from "@/components/course-modules"
-import { BenefitsDifferentials } from "@/components/benefits-differentials"
-import { SocialProof } from "@/components/social-proof"
-import { TestimonialsSection } from "@/components/testimonials-section"
-import { FinalCTA } from "@/components/final-cta"
+import { HeroSection } from "@/components/hero-section";
+import { VideoSection } from "@/components/video-section";
+import { PricingSection } from "@/components/pricing-section";
+import { RecipeGallery } from "@/components/recipe-gallery";
+import { GuaranteeSection } from "@/components/guarantee-section";
+import { CourseModules } from "@/components/course-modules";
+import { BenefitsDifferentials } from "@/components/benefits-differentials";
+import { SocialProof } from "@/components/social-proof";
+import { TestimonialsSection } from "@/components/testimonials-section";
+import { FinalCTA } from "@/components/final-cta";
 
 export default function BatatasRecheadasLanding() {
   const heroConfig = {
@@ -18,66 +18,106 @@ export default function BatatasRecheadasLanding() {
     ctaText: "CLIQUE AQUI E COMECE AGORA",
     ctaLink: "https://wa.me/5511999999999",
     backgroundImage: "/placeholder.svg?height=800&width=1200",
-  }
+  };
 
   const videoConfig = {
     youtubeVideoId: "dQw4w9WgXcQ",
     title: "CLIQUE PARA ASSISTIR O VÍDEO",
-    description: "Veja como é simples transformar sua vida com batatas recheadas",
+    description:
+      "Veja como é simples transformar sua vida com batatas recheadas",
     thumbnailImage: "/placeholder.svg?height=400&width=600",
-  }
+  };
 
   const recipes = [
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Bacon", title: "Batata Bacon" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Frango", title: "Batata Frango" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Carne", title: "Batata Carne" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Vegetariana", title: "Batata Vegetariana" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Camarão", title: "Batata Camarão" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Calabresa", title: "Batata Calabresa" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Portuguesa", title: "Batata Portuguesa" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Batata Fitness", title: "Batata Fitness" },
-  ]
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Bacon",
+      title: "Batata Bacon",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Frango",
+      title: "Batata Frango",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Carne",
+      title: "Batata Carne",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Vegetariana",
+      title: "Batata Vegetariana",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Camarão",
+      title: "Batata Camarão",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Calabresa",
+      title: "Batata Calabresa",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Portuguesa",
+      title: "Batata Portuguesa",
+    },
+    {
+      src: "/placeholder.svg?height=300&width=300",
+      alt: "Batata Fitness",
+      title: "Batata Fitness",
+    },
+  ];
 
   const courseModules = [
     {
       title: "Introdução ao Negócio",
-      description: "Conheça o potencial do mercado de batatas recheadas e como começar seu negócio do zero",
+      description:
+        "Conheça o potencial do mercado de batatas recheadas e como começar seu negócio do zero",
       duration: "15 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Escolha e Preparo das Batatas",
-      description: "Aprenda a escolher as melhores batatas e técnicas de preparo para garantir qualidade",
+      description:
+        "Aprenda a escolher as melhores batatas e técnicas de preparo para garantir qualidade",
       duration: "20 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Receitas Básicas",
-      description: "Domine as 5 receitas fundamentais que todo empreendedor deve saber",
+      description:
+        "Domine as 5 receitas fundamentais que todo empreendedor deve saber",
       duration: "35 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Receitas Gourmet",
-      description: "Receitas exclusivas e sofisticadas para aumentar seu ticket médio",
+      description:
+        "Receitas exclusivas e sofisticadas para aumentar seu ticket médio",
       duration: "45 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Precificação Estratégica",
-      description: "Como calcular custos e definir preços para maximizar seus lucros",
+      description:
+        "Como calcular custos e definir preços para maximizar seus lucros",
       duration: "25 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Marketing e Vendas",
-      description: "Estratégias para divulgar seu negócio e conquistar clientes fiéis",
+      description:
+        "Estratégias para divulgar seu negócio e conquistar clientes fiéis",
       duration: "30 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
     {
       title: "Produção em Escala",
-      description: "Organize sua produção para atender grandes volumes sem perder qualidade",
+      description:
+        "Organize sua produção para atender grandes volumes sem perder qualidade",
       duration: "40 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
@@ -87,7 +127,7 @@ export default function BatatasRecheadasLanding() {
       duration: "20 min",
       thumbnail: "/placeholder.svg?height=64&width=96",
     },
-  ]
+  ];
 
   const testimonials = [
     {
@@ -132,7 +172,7 @@ export default function BatatasRecheadasLanding() {
       rating: 5,
       image: "/placeholder.svg?height=48&width=48",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
@@ -152,13 +192,19 @@ export default function BatatasRecheadasLanding() {
       />
 
       {/* Recipe Gallery */}
-      <RecipeGallery title="Veja algumas das receitas que você vai dominar" recipes={recipes} />
+      <RecipeGallery
+        title="Veja algumas das receitas que você vai dominar"
+        recipes={recipes}
+      />
 
       {/* Guarantee Section */}
       <GuaranteeSection />
 
       {/* Course Modules */}
-      <CourseModules title="Conteúdo Completo do Curso" modules={courseModules} />
+      <CourseModules
+        title="Conteúdo Completo do Curso"
+        modules={courseModules}
+      />
 
       {/* Benefits and Differentials - IMPROVED */}
       <BenefitsDifferentials ctaLink="https://wa.me/5511999999999" />
@@ -167,15 +213,23 @@ export default function BatatasRecheadasLanding() {
       <SocialProof />
 
       {/* Testimonials */}
-      <TestimonialsSection title="Veja o que nossos alunos estão dizendo" testimonials={testimonials} />
+      <TestimonialsSection
+        title="Veja o que nossos alunos estão dizendo"
+        testimonials={testimonials}
+      />
 
       {/* Single Final CTA */}
-      <FinalCTA buttonText="QUERO GARANTIR MINHA VAGA AGORA" buttonLink="https://wa.me/5511999999999" />
+      <FinalCTA
+        buttonText="QUERO GARANTIR MINHA VAGA"
+        buttonLink="https://wa.me/5511999999999"
+      />
 
       {/* Footer */}
       <footer className="py-8 bg-black border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-gray-400 mb-4">© 2024 Curso Batatas Recheadas. Todos os direitos reservados.</p>
+          <p className="text-gray-400 mb-4">
+            © 2024 Curso Batatas Recheadas. Todos os direitos reservados.
+          </p>
           <div className="flex justify-center gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-white transition-colors">
               Termos de Uso
@@ -190,5 +244,5 @@ export default function BatatasRecheadasLanding() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
