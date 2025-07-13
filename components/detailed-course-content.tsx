@@ -41,8 +41,8 @@ export function DetailedCourseContent({ title, items, ctaText, ctaLink }: Detail
                 </div>
               )}
               {item.type === "icon" && item.src && (
-                <div className="w-14 h-14 sm:w-16 sm:h-16 flex-shrink-0 rounded-full bg-yellow-400 flex items-center justify-center">
-                  <Image src={item.src || "/placeholder.svg"} alt={item.alt || item.title} width={32} height={32} />
+                <div className="w-14 h-14 sm:w-16 sm:h-16 flex-shrink-0 rounded-full flex items-center justify-center">
+                  <Image src={item.src || "/placeholder.svg"} alt={item.alt || item.title} width={60} height={60} />
                 </div>
               )}
               <div className="flex-1">

@@ -13,7 +13,7 @@ export function CertificateSection({ ctaText, ctaLink }: CertificateSectionProps
     <section className="py-12 md:py-16 bg-gradient-to-b from-white to-gray-100">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-8 md:mb-12">
-          RECEBA UM <span className="text-yellow-400">CERTIFICADO DE QUALIFICAÇÃO</span>:
+          RECEBA UM <span className="text-yellow-400">CERTIFICADO DE QUALIFICAÇÃO</span>
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-8 md:mb-12">

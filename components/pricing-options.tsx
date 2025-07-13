@@ -37,7 +37,7 @@ export function PricingOptions({ title, options }: PricingOptionsProps) {
               key={index}
               className={`
                 relative p-6 sm:p-8 rounded-3xl shadow-xl transition-all duration-300
-                flex flex-col min-h-[600px] sm:min-h-[650px] md:min-h-[700px]
+                flex flex-col min-h-[600px] sm:min-h-[650px] md:min-h-[700px] mt-4 md:mt-0
                 ${
                   option.highlight
                     ? "bg-gradient-to-br from-gray-950 to-black border-4 border-yellow-500 shadow-2xl shadow-yellow-500/60 transform scale-105 z-20" // Premium highlight

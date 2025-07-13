@@ -19,10 +19,10 @@ export function LearningTopicsGrid({ title, topics }: LearningTopicsGridProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-white mb-8 md:mb-12">{title}</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {topics.map((topic, index) => (
             <div key={index} className="group flex flex-col items-center text-center">
-              <div className="relative w-20 h-20 sm:w-24 sm:h-24 overflow-hidden rounded-full border-2 border-gray-700 group-hover:border-yellow-400 transition-colors mb-2">
+              <div className="relative w-20 h-20 sm:w-40 sm:h-40 overflow-hidden rounded-full border-2 border-gray-700 group-hover:border-yellow-400 transition-colors mb-2">
                 <Image
                   src={topic.src || "/placeholder.svg"}
                   alt={topic.alt}

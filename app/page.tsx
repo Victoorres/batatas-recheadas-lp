@@ -232,7 +232,7 @@ export default function BatatasRecheadasLanding() {
     },
     {
       type: "icon",
-      src: "/placeholder.svg?height=40&width=40", // Placeholder for Facebook icon
+      src: "/facebook.svg?height=40&width=40", // Placeholder for Facebook icon
       alt: "Grupo no Facebook com o Léo",
       title: "Grupo no Facebook com o Léo",
       description:
@@ -240,7 +240,7 @@ export default function BatatasRecheadasLanding() {
     },
     {
       type: "icon",
-      src: "/placeholder.svg?height=40&width=40", // Placeholder for Telegram icon
+      src: "/telegram.png?height=40&width=40", // Placeholder for Telegram icon
       alt: "Canal no Telegram com o Léo",
       title: "Canal no Telegram com o Léo",
       description:
@@ -248,7 +248,7 @@ export default function BatatasRecheadasLanding() {
     },
     {
       type: "icon",
-      src: "/placeholder.svg?height=40&width=40", // Placeholder for WhatsApp icon
+      src: "/whatsapp.svg?height=40&width=40", // Placeholder for WhatsApp icon
       alt: "Receba no WhatsApp na hora!",
       title: "Receba no WhatsApp na hora!",
       description:
@@ -256,7 +256,7 @@ export default function BatatasRecheadasLanding() {
     },
     {
       type: "icon",
-      src: "/placeholder.svg?height=40&width=40", // Placeholder for WhatsApp icon
+      src: "/whatsapp.svg?height=40&width=40", // Placeholder for WhatsApp icon
       alt: "Comunidade no WhatsApp",
       title: "Comunidade no WhatsApp",
       description:
@@ -264,7 +264,7 @@ export default function BatatasRecheadasLanding() {
     },
     {
       type: "icon",
-      src: "/placeholder.svg?height=40&width=40", // Placeholder for Guarantee icon
+      src: "/guarantee.png?height=40&width=40", // Placeholder for Guarantee icon
       alt: "Garantia e Acesso Vitalício",
       title: "Garantia e Acesso Vitalício",
       description:
@@ -479,35 +479,35 @@ export default function BatatasRecheadasLanding() {
       <PricingSection {...pricingConfig} />
       {/* Learning Topics Grid */}
       <LearningTopicsGrid
-        title="VEJA O QUE VOCÊ VAI APRENDER:"
+        title="VEJA O QUE VOCÊ VAI APRENDER"
         topics={learningTopics}
       />
       {/* Certificate Section */}
       <CertificateSection {...certificateConfig} />
       {/* Detailed Course Content */}
       <DetailedCourseContent
-        title="Veja o que você vai Receber no Curso Batatas Recheadas"
+        title="VEJA O QUE VOCÊ VAI RECEBER NO CURSO"
         items={detailedCourseItems}
         ctaText="CLIQUE AQUI E COMECE AGORA"
         ctaLink={ctaLink}
       />
       {/* Profit Potential */}
       <ProfitPotential
-        title="Veja o quanto de Lucro que você pode ter:"
+        title="VEJA O QUANTO DE LUCRO QUE VOCÊ PODE TER"
         items={profitItems}
       />
       {/* Risk Free Guarantee */}
       <RiskFreeGuarantee {...riskFreeConfig} />
       {/* Pricing Options (Two Packages) - IMPROVED */}
       <PricingOptions
-        title="ESCOLHA A MELHOR OPÇÃO PARA VOCÊ:"
+        title="ESCOLHA A MELHOR OPÇÃO PARA VOCÊ"
         options={pricingOptions}
       />
       {/* Social Proof */}
       <SocialProof />
       {/* Testimonials */}
       <TestimonialsSection
-        title="Veja o que nossos alunos estão dizendo"
+        title="VEJA O QUE NOSSOS ALUNOS ESTÃO DIZENDO"
         testimonials={testimonials}
       />
       {/* FAQ Section */}
