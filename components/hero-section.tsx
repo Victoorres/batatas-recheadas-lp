@@ -28,7 +28,7 @@ export function HeroSection({ title, subtitle, ctaText, ctaLink, logoSrc, backgr
         {logoSrc && (
           <div className="flex justify-center mb-6 sm:mb-8">
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-yellow-400 rounded-full flex items-center justify-center border-4 border-yellow-300 overflow-hidden">
-              <Image src={logoSrc || "/placeholder.svg"} alt="Logo" width={80} height={80} className="object-cover" />
+              <Image src={logoSrc || "/placeholder.svg"} alt="Logo" width={100} height={100} className="object-cover" />
             </div>
           </div>
         )}
@@ -47,7 +47,7 @@ export function HeroSection({ title, subtitle, ctaText, ctaLink, logoSrc, backgr
           dangerouslySetInnerHTML={{ __html: subtitle }}
         />
 
-        <div className="pt-6 sm:pt-8">
+        <div className="pt-2 sm:pt-2">
           <CallToAction text={ctaText} link={ctaLink} />
         </div>
 

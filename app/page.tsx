@@ -16,13 +16,13 @@ export default function BatatasRecheadasLanding() {
 
   const heroConfig = {
     title:
-      'Aprenda a fazer <span class="text-yellow-400">Batatas Recheadas</span> com<br/><span class="text-yellow-400">Vídeo Aulas e Receitas Exclusivas</span>',
+      'Aprenda a fazer <br/> <span class="text-yellow-400">Batatas Recheadas</span> <br/>com<br/><span class="text-yellow-400">Vídeo Aulas e Receitas Exclusivas</span>',
     subtitle:
       'Receba muitos <span class="text-yellow-400">Pedidos</span> e <span class="text-yellow-400">Mude sua Realidade</span>',
     ctaText: "CLIQUE AQUI E COMECE AGORA",
     ctaLink: ctaLink,
-    backgroundImage: "/placeholder.svg?height=800&width=1200",
-    logoSrc: "/placeholder.svg?height=80&width=80", // Placeholder for chef logo
+    backgroundImage: "https://i.pinimg.com/originals/11/2f/d5/112fd5c3921fe33d7a7b7c6e0b2ddef1.jpg?height=800&width=1200",
+    logoSrc: "https://png.pngtree.com/png-clipart/20221019/original/pngtree-master-chef-logo-illustration-png-image_8703909.png?height=80&width=80", // Placeholder for chef logo
   };
 
   const videoConfig = {
