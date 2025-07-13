@@ -14,11 +14,11 @@ export function VideoSection({ youtubeVideoId, title, description, thumbnailImag
   const [isPlaying, setIsPlaying] = useState(false)
 
   return (
-    <section className="py-16 px-4 bg-black">
+    <section className="py-12 md:py-16 px-4 bg-black">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-gradient-to-r from-green-600 to-green-700 p-6 rounded-2xl shadow-2xl">
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-2 text-white">{title}</h3>
-          {description && <p className="text-center text-green-100 mb-6">{description}</p>}
+        <div className="bg-gradient-to-r from-green-600 to-green-700 p-6 sm:p-8 rounded-2xl shadow-2xl">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-2 text-white">{title}</h3>
+          {description && <p className="text-sm sm:text-base text-center text-green-100 mb-4 sm:mb-6">{description}</p>}
 
           <div className="relative aspect-video bg-black rounded-xl overflow-hidden">
             {!isPlaying ? (
@@ -30,8 +30,8 @@ export function VideoSection({ youtubeVideoId, title, description, thumbnailImag
                 />
                 <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <Play className="w-8 h-8 text-black ml-1" fill="currentColor" />
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <Play className="w-7 h-7 sm:w-8 sm:h-8 text-black ml-1" fill="currentColor" />
                   </div>
                 </div>
               </div>

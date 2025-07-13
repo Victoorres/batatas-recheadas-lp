@@ -1,20 +1,20 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: "Curso batatas recheadas",
-  description:
-    "Aprenda a fazer deliciosas batatas recheadas com técnicas profissionais. Receitas exclusivas, dicas de preparo e muito mais para você se tornar um especialista na arte das batatas recheadas.",
-};
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body>{children}</body>
     </html>
-  );
+  )
 }

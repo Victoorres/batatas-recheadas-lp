@@ -15,11 +15,11 @@ interface RecipeGalleryProps {
 
 export function RecipeGallery({ title, recipes }: RecipeGalleryProps) {
   return (
-    <section className="py-16 bg-black">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">{title}</h2>
+    <section className="py-12 md:py-16 bg-black">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-white mb-8 md:mb-12">{title}</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {recipes.map((recipe, index) => (
             <div key={index} className="group">
               <div className="relative aspect-square overflow-hidden rounded-xl bg-gray-800">
@@ -31,7 +31,7 @@ export function RecipeGallery({ title, recipes }: RecipeGalleryProps) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                  <h3 className="font-bold text-sm">{recipe.title}</h3>
+                  <h3 className="font-bold text-xs sm:text-sm">{recipe.title}</h3>
                 </div>
               </div>
             </div>
